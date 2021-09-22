@@ -5,6 +5,7 @@ body {
     background-size: cover;
     vertical-align: center;
     text-align: top right;
+ 
 }
 
 .topsauce {
@@ -66,21 +67,37 @@ body {
     font-family: "rotobo", sans-serif;  
 }
 
-.section2{
-    margin: 0;
-    min-height: 100%;
-    background-color: #fff;
+.mainbutton:hover {
+    border: solid #fe9000;
+    border-radius: 30px;
 }
+
+
 
 .buttontwo {
 border: #fff;
 background-color: transparent;
 border-style: solid;
+border-width: 1px;
 }
 
-
-.header {
-    vertical-align: top;
-    text-align: left;
-    height: auto;
+.buttontwo:hover {
+    border: solid #fff;
+    border-radius: 30%;
 }
+
+.section2{
+    margin: 800;
+    min-height: 100;
+    background-color: #fff;
+    font-family: "roboto", sans-serif;
+    font-size: larger;
+    color: black;
+    text-decoration: black;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.8;
+    
+    
+}
+
